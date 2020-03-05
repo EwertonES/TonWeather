@@ -5,9 +5,9 @@
 #   Objetivo: Criei para aprender a utilizar a ferramenta Tkinter na criação de interfaces                            #
 #######################################################################################################################
 
+import requests
 import tkinter as tk
 from PIL import Image, ImageTk
-import requests
 
 # CONSTANTS
 WIDTH = 600  # Window width
@@ -51,7 +51,7 @@ def format_response(weather_json):
 
 # Create main window
 root = tk.Tk()
-root.wm_title("Ton Tempo v0.1")  # Changes title
+root.wm_title("Ton Weather")  # Changes title
 root.iconbitmap("./imgs/icon.ico")  # Changes .ico
 
 # Create canvas with background img
